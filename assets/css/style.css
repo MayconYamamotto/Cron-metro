@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik";
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #FBF3E4;
+}
+
+/** Navbar  **/
+.navbar {
+  background-color: #002939;
+}
+
+.navbar .nav-item.active {
+  color: #fff;
+  border-top: 5px #fff solid;
+}
+
+.navbar .nav-item {
+  background-color: #002939;
+  border: 0;
+  color: #C7C5C5;
+  padding: 1.8rem 2.5rem;
+  position: relative;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.navbar .nav-item:hover {
+  color: #fff;
+}
+
+.navbar .nav-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 0;
+  border-top: 5px #fff solid;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.navbar .nav-item:hover::after {
+  width: 100%;
+}
+
+.main .timer .clock {
+  font: 400 14.4rem "Rubik";
+  color: #002939;
+}
+
+.footer {
+  background-color: #002939;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  position: relative;
+  font: 400 1.8rem "Rubik";
+  color: #fff;
+}
+
+.footer a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  bottom: -1rem;
+  left: 0;
+  border-top: 5px #fff solid;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.footer a:hover::before {
+  width: 100%;
+}
+
+/** Reset **/
+button {
+  font: 500 2.4rem "Rubik";
+  cursor: pointer;
+}
+
+/** Button **/
+.btn {
+  padding: 2rem 6rem;
+  border-radius: 0.8rem;
+  border: none;
+  margin: 2.5rem;
+}
+
+.btn:disabled, .btn:hover:disabled {
+  background-color: #7E939D;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #002939;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #002939;
+  opacity: 0.9;
+}
+
+.btn-primary:focus {
+  background-color: #002939;
+  opacity: 0.9;
+  -webkit-box-shadow: 0px 0px 0px 3px #7E939D;
+          box-shadow: 0px 0px 0px 3px #7E939D;
+}
+/*# sourceMappingURL=style.css.map */

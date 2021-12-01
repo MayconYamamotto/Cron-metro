@@ -1,0 +1,102 @@
+$color-primary: #002939
+$color-primary-muted: #7E939D
+$color-secondary: #FBF3E4
+$color-white: #fff
+$color-muted: #C7C5C5
+
+*
+    padding: 0
+    margin: 0
+    font-family: "Rubik"
+    font-size: 62.5%
+
+body
+    background-color: $color-secondary
+
+/** Navbar  **/
+.navbar
+    background-color: $color-primary
+
+    .nav-item.active
+        color: $color-white
+        border-top: 5px $color-white solid
+
+    .nav-item
+        background-color: $color-primary
+        border: 0
+        color: $color-muted
+        padding: 1.8rem 2.5rem
+        position: relative
+        transition: all .35s
+
+        &:hover
+            color: $color-white
+
+        &::after
+            content: ""
+            position: absolute
+            width: 0
+            top: 0
+            left: 0
+            border-top: 5px $color-white solid
+            transition: all .35s
+
+        &:hover::after
+            width: 100%
+
+.main
+    .timer .clock
+        font: 400 14.4rem "Rubik"
+        color: $color-primary
+
+.footer
+    background-color: $color-primary
+    color: $color-white
+    font-size: 1.8rem
+    padding: 1rem
+
+    a
+        text-decoration: none
+        position: relative
+        font: 400 1.8rem "Rubik"
+        color: $color-white
+
+        &::before
+            content: ""
+            position: absolute
+            width: 0
+            bottom: -1rem
+            left: 0
+            border-top: 5px $color-white solid
+            transition: all .35s
+
+        &:hover::before
+            width: 100%
+
+/** Reset **/
+button
+    font: 500 2.4rem "Rubik"
+    cursor: pointer
+
+/** Button **/
+.btn
+    padding: 2rem 6rem
+    border-radius: 0.8rem
+    border: none
+    margin: 2.5rem
+    &:disabled, &:hover:disabled
+        background-color: $color-primary-muted
+
+.btn-primary
+    color: $color-white
+    background-color: $color-primary
+    transition: 0.2s
+
+    &:hover
+        background-color: $color-primary
+        opacity: 0.9
+
+    &:focus
+        background-color: $color-primary
+        opacity: 0.9
+        box-shadow: 0px 0px 0px 3px #7E939D
