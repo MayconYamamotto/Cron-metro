@@ -1,12 +1,16 @@
-<h1 align="center">⏱️ <a href="#" alt="site cronômetro"> Cronômetro </a></h1>
+<h1 align="center">⏱️ <a href="https://mayconyamamotto.github.io/cronometro/" alt="site cronômetro"> Cronômetro </a></h1>
 
 <h3 align="center">
     Cronômetro para marcar intervalos de tempo
 </h3>
 
+
 <h4 align="center">
-  🛠️ Pendente 🧑‍🔧🛠️
+  🛠️ Pendente 🛠️
 </h4>
+<h5 align="center">
+    Clique <a href="https://mayconyamamotto.github.io/cronometro/">Aqui</a> para acessar
+</h5>
 
 Tabela de conteúdos
 =================
